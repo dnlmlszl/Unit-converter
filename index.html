@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap" rel="stylesheet">
+    <title>Unit Converter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h2>Metric/Imperial Unit Conversion</h2>
+            <input type="text" name="inputfield" id="input-el">
+            <div class="buttons">
+                <button id="button-el"><span><i id="calc" class="fa-solid fa-calculator"></i></span>CONVERT</button>
+                <button id="button-res-el"><span><i id="del" class="fa-solid fa-trash-can"></i></span>RESET</button>
+            </div>
+        </div>
+        <div class="output">
+            <div class="converted">
+                <h3 id="mass">Length (Meter/Feet)</h3>
+                <p id="output-length" class="conv">0 meters = 0.000 feet | 0 feet = 0.000 meters</p>
+            </div>
+            <div class="converted">
+                <h3 id="mass">Volume (Liter/Gallons)</h3>
+                <p id="output-vol" class="conv">0 liters = 0.000 gallons | 0 gallons = 0.000 liters</p>
+            </div>
+            <div class="converted">
+                <h3 id="mass">Mass (Kilograms/Pounds)</h3>
+                <p id="output-mass" class="conv">0 kilograms = 0.000 pounds | 0 pounds = 0.000 kilograms</p>
+            </div>
+            <div class="converted">
+                <h3 id="mass">DIY (Millimeters/Inches)</h3>
+                <p id="output-DIY" class="conv">0 millimeters = 0.000 inches | 0 inches = 0.000 millimeters</p>
+            </div>
+            <div class="converted">
+                <h3 id="mass">Temperature (Celsius/Fahrenheit)</h3>
+                <p id="temp-el" class="conv">0 Celsius = 0.000 Fahrenheit | 0 Fahrenheit = 0.000 Celsius</p>
+            </div>
+
+        </div>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
